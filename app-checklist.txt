@@ -1,0 +1,5 @@
+// ✔️
+1. env file ✔️
+2. seprate config file
+3. proper logs ✔️
+4. clean code 
