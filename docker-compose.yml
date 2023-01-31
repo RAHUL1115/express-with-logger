@@ -7,5 +7,6 @@ services:
       - .env
     ports: 
       - 4000:3000
+    command: ["npm","run","dev"]
     volumes:
       - ./app:/home/node/express-logger/app

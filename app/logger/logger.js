@@ -89,6 +89,14 @@ class Logger {
       this.winston.log("info", message);
     }
   }
+
+  http(message, obj) {
+    if (typeof obj) {
+      this.winston.log("http", { message, obj });
+    } else {
+      this.winston.log("http", message);
+    }
+  }
 }
 
 module.exports = Logger;

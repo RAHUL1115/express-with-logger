@@ -1,1 +1,1 @@
-const app = require('./app/main');
+const app = require('./app/');
